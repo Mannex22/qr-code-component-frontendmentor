@@ -52,3 +52,31 @@ body{
     width: 175px;
     color: var(--slate-500);
 }
+
+@media(max-width: 376px) {
+    .container{
+        background-color: white;
+
+        padding: 17px;
+        width: 280px;
+        height: 440px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .container #improvement-text{
+        font-size: 21px;        
+        width: 240px;
+        
+    }
+
+    .container #qr-instruction-text{
+        font-size: 15px;
+        text-align: center;
+
+        width: 250px;
+    }
+}
