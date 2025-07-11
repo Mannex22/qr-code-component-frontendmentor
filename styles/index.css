@@ -1,0 +1,54 @@
+:root{
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--slate-300);
+    align-content: center;
+    justify-items: center;
+    font-family: Outfit;
+}
+
+.container{
+    background-color: white;
+
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+    height: 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container img{
+    border-radius: 10px;
+    width: 100%
+}
+
+.container #improvement-text{
+    font-size: 15px;
+    font-weight: 700;
+    
+    width: 180px;
+    text-align: center;
+    color: var(--slate-900);
+}
+
+.container #qr-instruction-text{
+    font-size: 10px;
+    text-align: center;
+
+    width: 175px;
+    color: var(--slate-500);
+}
